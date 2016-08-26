@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0-*",
+  "description": "Mandco Console Application",
+  "authors": [ "Administrator" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "Microsoft.CSharp": "4.0.1",
+    "Newtonsoft.Json": "9.0.1",
+    "System.Threading": "4.0.11"
+  },
+
+  "commands": {
+    "Mandco": "Mandco"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System.ServiceModel": "4.0.0.0",
+        "System.XML": "4.0.0.0"
+      },
+      "dependencies": {
+        "System.Linq": "4.1.0"
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Linq": "4.0.1-beta-23516"
+      }
+    }
+  }
+}
